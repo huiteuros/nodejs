@@ -1,16 +1,33 @@
 {
-    "name": "heroku-demo",
-    "version": "1.0.0",
-    "description": "",
-    "main": "index.js",
-    "scripts": {
-        "start": "node index.js",
-        "test": "echo \"Error: no test specified\" && exit 1"
-    },
-    "author": "",
-    "license": "ISC",
-    "dependencies": {
-        "axios": "^0.24.0",
-        "express": "^4.17.1"
-    }
+  "name": "heroku-demo",
+  "version": "1.0.0",
+  "description": "projet nodejs",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.24.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.3",
+    "jsonwebtoken": "^8.5.1",
+    "node": "^17.7.1",
+    "passport": "^0.5.2",
+    "passport-jwt": "^4.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/huiteuros/nodejs.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/huiteuros/nodejs/issues"
+  },
+  "homepage": "https://github.com/huiteuros/nodejs#readme"
 }
