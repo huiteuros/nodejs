@@ -74,7 +74,7 @@ app.post('/ajouterPlat', function(req, res) {
         .then(result => res.json("Plat ajouté"))
 })
 
-app.post('/supprimerPlat/:id', function(req, res){
+app.delete('/supprimerPlat/:id', function(req, res){
     axios.delete(ADDRESS+'/plats/'+req.params.id, {headers : HEADER})
         .then(result => res.json("Plat supprimé"))
 })
